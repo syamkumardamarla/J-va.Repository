@@ -1,3 +1,5 @@
+
+import java.util.Scanner;
 public class Main
 {
     public static void reverseNum(int num){
@@ -10,6 +12,8 @@ public class Main
         System.out.println(rev);
     }
 	public static void main(String[] args) {
-		reverseNum(456);
+		Scanner sc= new Scanner(System.in);
+        int num= sc.nextInt();
+        reverseNum(num);
 	}
 }
